@@ -1,6 +1,6 @@
 #include "sss.h"
 
-/*
+/**
  * readline - Reads user input from stdin
  *
  * Return: A string containing bytes from stdin, or NULL on failure
