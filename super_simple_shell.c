@@ -1,6 +1,6 @@
 #include "sss.h"
 
-/*
+/**
  * main - entry point for shell
  *
  * @argc: Number of inputted arguments

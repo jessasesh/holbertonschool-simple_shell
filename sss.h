@@ -10,7 +10,7 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
-/**
+/*
  * Please sort libraries in a-z order
  */
 
