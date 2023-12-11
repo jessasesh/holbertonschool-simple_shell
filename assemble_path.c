@@ -1,5 +1,11 @@
 #include "sss.h"
 
+/**
+ * append_to_str - Appends one string to another and returns result
+ * @dest - The destination string
+ * @src - The source string to append
+ * @Return Concatenated string/ NULL
+ */
 char *append_to_str(char *dest, char *src)
 {
 	char *temp = malloc(strlen(dest) + strlen(src) + 1);
@@ -14,6 +20,12 @@ char *append_to_str(char *dest, char *src)
 	return (temp);
 }
 
+/**
+ * assemble_path - Assembles complete file path
+ * @paths - Array of paths
+ * @file - file to append
+ * @Return Assembled file path/ NULL
+ */
 char *assemble_path(char **paths, char *file)
 {
 	int i;
