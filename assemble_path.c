@@ -25,7 +25,7 @@ char *assemble_path(char **paths, char *file)
 	{
 		return (file);
 	}
-	
+
 	printf("file = %s\n", file);
 
 	for (i = 0; paths[i] != NULL; i++)
