@@ -37,7 +37,7 @@ int fork_process(char **tokens, char **environ)
 	if (mypid)
 	{
 		wait(&status);
-		printf("I'm the parent process: %lu\n", (long unsigned)mypid);
+		printf("I'm the parent process: %lu\n", (unsigned long)mypid);
 		return (0);
 	}
 	return (1);
