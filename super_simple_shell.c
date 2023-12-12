@@ -1,7 +1,5 @@
 #include "sss.h"
 
-void betty_no_more(void)
-
 /*
  * main - entry point for shell
  *
