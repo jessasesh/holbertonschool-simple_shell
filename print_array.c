@@ -1,5 +1,8 @@
 #include "sss.h"
-
+/**
+ * print_array - Prints the elements of an array of strings
+ * @array: array of strings to be printed
+ */
 void print_array(char **array)
 {
 	int i;

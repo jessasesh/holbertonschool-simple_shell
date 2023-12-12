@@ -5,7 +5,7 @@
  *
  * @envVar: Variable to split
  *
- * Retufn: Value (string) from the env var
+ * Return: Value (string) from the env var
  */
 
 char *value_from_environ(char *envVar)

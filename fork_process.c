@@ -1,5 +1,12 @@
 #include "sss.h"
 
+/**
+* fork_process - forks process and executes a command.
+* @tokens: array of strings command and its arguments.
+* @environ: array of strings environmental variables
+* Return: 0 on success, 1 on failure.
+*/ 
+
 int fork_process(char **tokens, char **environ)
 {
 	pid_t mypid;
@@ -7,7 +14,7 @@ int fork_process(char **tokens, char **environ)
 
 	char *pathName = tokens[0];
 
-	printf("===fork_process===\n");
+	/*printf("===fork_process===\n");*/
 
 	printf("pathName = %s\n", pathName);
 
@@ -16,7 +23,7 @@ int fork_process(char **tokens, char **environ)
 	if (mypid == -1)
 	{
 		perror("Unable to fork");
-		printf("==Terminating shell==\n");
+		/*printf("==Terminating shell==\n");*/
 		return (1);
 	}
 	if (mypid == 0)
