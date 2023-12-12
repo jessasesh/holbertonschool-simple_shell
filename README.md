@@ -106,7 +106,10 @@ Function Name|Syntax|Description|
 |[tokenize.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/tokenize.c)|char **tokenize(char *str, char const *delim)|Coverts input for processing|
 |[tokenize_path.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/tokenize_path.c)|char **tokenize_path(char **envp)|Converts path|
 |[value_from_environ.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/value_from_environ.c)|char *value_from_environ(char *envVar)|Handles environment variable|
-||||
+|[assemble_path.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/assemble_path.c)|char *append_to_str(char *dest, char *src)|Appends strings|
+|[print_array.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/print_array.c)|void print_array(char **array)|Prints elements of string|
+|[fork_process.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/fork_process.c)|int fork_process(char **tokens, char **environ)|Executes Program|
+|[free_array.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/free_array.c)|void free_array(char **array)|Free memory|
 
 ## Flow Chart
 
