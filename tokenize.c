@@ -41,9 +41,5 @@ char **tokenize(char *str, char const *delim)
 
 	tokens[i] = NULL;
 
-	for (i = 0; tokens[i] != NULL; i++)
-	{
-		printf("token[%i]: %s\n", i, tokens[i]);
-	}
 	return (tokens);
 }

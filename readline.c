@@ -1,4 +1,5 @@
 #include "sss.h"
+#include <stdio.h>
 
 /**
  * readline - Reads user input from stdin

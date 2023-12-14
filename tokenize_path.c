@@ -20,8 +20,6 @@ char **tokenize_path(char **envp)
 		return (NULL);
 	}
 
-	printf("===tokenize_path===\n");
-
 	while (strncmp(envp[i], path, strlen(path)) != 0)
 	{
 		i++;
@@ -33,14 +31,12 @@ char **tokenize_path(char **envp)
 	{
 		return (NULL);
 	}
+
 	strcpy(pathsString, envp[i]);
-	printf("%s\n", pathsString);
 
 	pathsString = value_from_environ(pathsString);
 
 	pathsTokens = tokenize(pathsString, ":");
-
-	printf("===tokenize_path===SUCCESS\n");
 
 	return (pathsTokens);
 }

@@ -45,7 +45,6 @@ int main(int argc, char **argv, char **envp)
 		else
 		{
 			commandArgs = tokenize(userInput, " ");
-			print_array(commandArgs);
 			if (fork_process(commandArgs, envp) == 1)
 			{
 				free(userInput);
