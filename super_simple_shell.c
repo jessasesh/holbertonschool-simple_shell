@@ -22,7 +22,8 @@ int main(int argc, char **argv, char **envp)
 
 	while (1)
 	{
-		printf("$ ");
+		if (isatty(STDIN_FILENO))
+			printf("$ ");
 		userInput = readline();
 
 		if (!userInput)
