@@ -1,7 +1,5 @@
-# Simple_Shell 
-
-# Introduction
-
+![holberton_name 01](https://github.com/jessasesh/holbertonschool-simple_shell/assets/126801159/2691c3a4-5b7a-4941-bb44-954f279a208e)
+# Simple Shell Introduction
 
 ## What is it?
 A shell is a program that provides a command-line interface for users to interact with the computer's operating system. It allows users to execute commands and run programs by typing text commands.
@@ -112,5 +110,6 @@ Function Name|Syntax|Description|
 |[free_array.c](https://github.com/jessasesh/holbertonschool-simple_shell/blob/master/free_array.c)|void free_array(char **array)|Free memory|
 
 ## Flow Chart
+![Simple Shell](https://github.com/jessasesh/holbertonschool-simple_shell/assets/126801159/de4115e8-d3a8-462e-ae22-cc343f3c5397)
 
 Created by [Brad Brown](https://github.com/BradBrown6621) & [Jess Dison](https://github.com/jessasesh)
