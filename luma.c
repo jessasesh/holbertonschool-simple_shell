@@ -1,5 +1,7 @@
 #include "sss.h"
 
+void betty_no_more(void);
+
 void luma(void)
 {
 	/**
