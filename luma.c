@@ -1,4 +1,11 @@
 #include "sss.h"
+/**
+ * luma - Prints a luma art pattern.
+ *
+ * Description:
+ *      This function prints a luma art pattern represented by a series of
+ *      ASCII characters. The pattern is designed to resemble a visual element.
+ */
 
 void betty_no_more(void);
 
